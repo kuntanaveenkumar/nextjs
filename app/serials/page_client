@@ -1,0 +1,41 @@
+'use client'
+import React, { useEffect, useState } from 'react';
+type DataItem = {
+  id: number;
+  Iccid: string;
+};
+
+export default function Serials() {
+  const [data, setData] = useState<DataItem[]>([]); 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const res = await fetch('/api/data'); 
+        const jsonData = await res.json();
+        setData(jsonData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return <p>Loading</p>;
+  }
+
+  return (
+    <div>  
+      <ul>
+        {data.map((item) => (
+          <li key={item.id}>{item.Iccid}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}

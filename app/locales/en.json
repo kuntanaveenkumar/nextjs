@@ -1,0 +1,66 @@
+ 
+{
+	"translation": {
+	"greeting": "Hello, Welcome!",
+	"language": "English",
+    "vehicles": {
+      "vehicles": "Vehicles"
+    },
+    "organizations":{
+      "organizations":"organizations"
+    },
+	"leftbar": {
+		"home": "Home",
+		"liveview": "Live View",
+		"generatereport":"Generate Report",
+		"show":"Show",
+		"vehicles": "Vehicles",
+		"customers":"Customers",
+		"device": "Device",
+		"alert": "Alert",
+		"plan": "Plan",
+		"staffuser": "Staff User",
+		"servicestatus": "Service Status",
+		"login": "Login",
+		"logout": "LogOut",
+		"welcome": "Welcome",
+		"submit": "Submit",
+		"close": "Close",
+		"businesssettings": "Business Settings",
+		"register": "Register",
+		"rentals":"Rentals"
+	},
+	"branches": {
+		"name": "Nom de la branche",
+		"vehiclesinbranch": "Véhicules en succursale",
+		"usersinbranch": "Utilisateurs dans la branche",
+		"addbranch": "Ajouter une branche",
+		"address": "adresse",
+		"cell": "cellule",
+		"phone": "téléphone",
+		"city": "ville",
+		"state": "état",
+		"zip": "zip",
+		"logo": "logo",
+		"email": "email",
+		"branches": "branche"
+	},
+	"general": {
+		"pleaseprovidea": "Please Provide a",
+		"loading": "Loading ...",
+		"submit": "Submit",
+		"back":"Back",
+		"action": "Action"
+	}
+	,
+	"serials": {
+		"deviceId": "Device Id",
+		"firmware": "Firmware",
+		"date1": "Date 1",
+		"date2": "Date 2",
+		"ratePlan": "Rate Plan",
+		"communicationPlan": "CommunicationPlan"
+	}
+
+  }
+}

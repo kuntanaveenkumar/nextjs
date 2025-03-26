@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+service SerialService {
+  rpc GetSerials (GetSerialsRequest) returns (GetSerialsResponse);
+}
+
+message GetSerialsRequest {
+  string Iccid = 1;
+  string sortby = 2;
+  string sorttype = 3;
+  int32 currentPage = 4;
+}
+
+message GetSerialsResponse {
+  repeated Serial guides = 1;
+  int32 count = 2;
+}
+
+message Serial {
+  string iccid = 1;
+  string other_field = 2;
+}

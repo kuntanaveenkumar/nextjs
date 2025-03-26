@@ -1,0 +1,67 @@
+
+{
+	"translation": {
+	"greeting": "Bonjour, bienvenue!",
+	"language": "Français",
+    "vehicles": {
+      "vehicles": "Véhicules"
+    },
+    "organizations":{
+      "organizations":"organizations"
+    },	
+    "leftbar": {
+      "home": "Maison",
+      "generatereport": "Generate Report",
+      "show": "Show",
+      "liveview": "Vue en direct",
+      "vehicles": "Véhicules",
+      "device": "Appareil",
+      "alert": "Alerte",
+      "plan": "Planifier",
+      "customers": "Clientes",
+      "staffuser": "Utilisateur du personnel",
+      "servicestatus": "Statut du service",
+      "login": "Connexion",
+      "logout": "Déconnexion",
+      "welcome": "Bienvenue",
+      "submit": "Soumettre",
+      "close": "Fermer",
+      "businesssettings": "Paramètres professionnels",
+      "register": "Registre",
+      "rentals": "De location"
+    }
+    ,
+"branches": {
+		"name": "Branch Name",
+		"vehiclesinbranch": "Vehicles In Branch",
+		"usersinbranch": "Users In Branch",
+		"addbranch": "Add Branch",
+		"address": "address",
+		"cell": "cell",
+		"phone": "phone",
+		"city": "city",
+		"state": "state",
+		"zip": "zip",
+		"logo": "logo",
+		"email": "email",
+		"branches": "Branches",
+		"country": "Country"
+	},
+  "general": {
+		"pleaseprovidea": "Veuillez fournir un",
+		"loading": "Chargement ...",
+		"submit": "Soumettre",
+		"back":"précédente",
+		"action": "Action"
+		
+	},
+	"serials": {
+		"deviceId": "Identifiant de l'appareil",
+    "firmware": "Micrologiciel",
+    "date1": "Date 1",
+    "date2": "Date 2",
+    "ratePlan": "Plan tarifaire",
+    "communicationPlan": "Plan de communication"
+    }
+  }
+}
